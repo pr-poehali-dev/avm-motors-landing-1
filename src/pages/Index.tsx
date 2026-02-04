@@ -157,9 +157,7 @@ const Index = () => {
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#102335]/50 to-[#102335]" />
               <div className="absolute inset-0 bg-[url('/placeholder.svg')] bg-cover bg-center opacity-20" />
               <div className="container mx-auto px-4 relative z-10 text-center">
-                <Badge className="mb-6 bg-fire-red/20 text-fire-red border-fire-red/50 text-sm px-4 py-1">
-                  25 лет опыта работы с Китаем
-                </Badge>
+                <Badge className="mb-6 bg-fire-red/20 text-fire-red border-fire-red/50 text-sm px-4 py-1">10 лет опыта работы с Китаем</Badge>
                 <h2 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-fire-red to-white bg-clip-text text-transparent leading-tight">
                   Пригон автомобилей<br />из Китая в Беларусь
                 </h2>

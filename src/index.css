@@ -6,40 +6,39 @@
 
 @layer base {
   :root {
-    --background: 0 0% 4%;
-    --foreground: 0 0% 98%;
+    --background: 210 55% 11%;
+    --foreground: 0 0% 100%;
 
-    --card: 0 0% 8%;
-    --card-foreground: 0 0% 98%;
+    --card: 210 55% 15%;
+    --card-foreground: 0 0% 100%;
 
-    --popover: 0 0% 8%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 210 55% 15%;
+    --popover-foreground: 0 0% 100%;
 
-    --primary: 43 74% 66%;
-    --primary-foreground: 0 0% 10%;
+    --primary: 357 72% 45%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 0 0% 12%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 210 55% 15%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 0 0% 15%;
-    --muted-foreground: 0 0% 65%;
+    --muted: 210 55% 20%;
+    --muted-foreground: 0 0% 70%;
 
-    --accent: 43 100% 58%;
-    --accent-foreground: 0 0% 10%;
+    --accent: 357 72% 45%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 20%;
-    --input: 0 0% 20%;
-    --ring: 43 74% 66%;
+    --border: 210 55% 25%;
+    --input: 210 55% 25%;
+    --ring: 357 72% 45%;
 
     --radius: 0.5rem;
 
-    --gold: 43 74% 66%;
-    --gold-dark: 43 60% 50%;
-    --dark-bg: 0 0% 4%;
-    --dark-card: 0 0% 8%;
+    --fire-red: 357 72% 45%;
+    --prussian-blue: 210 55% 11%;
+    --prussian-blue-light: 210 55% 15%;
   }
 }
 
@@ -64,15 +63,23 @@
 }
 
 @layer utilities {
-  .text-gold {
-    color: hsl(var(--gold));
+  .text-fire-red {
+    color: hsl(var(--fire-red));
   }
 
-  .bg-gold {
-    background-color: hsl(var(--gold));
+  .bg-fire-red {
+    background-color: hsl(var(--fire-red));
   }
 
-  .border-gold {
-    border-color: hsl(var(--gold));
+  .border-fire-red {
+    border-color: hsl(var(--fire-red));
+  }
+
+  .bg-prussian-blue {
+    background-color: hsl(var(--prussian-blue));
+  }
+
+  .bg-prussian-blue-light {
+    background-color: hsl(var(--prussian-blue-light));
   }
 }
